@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Speed motion streaks behind runner -->
+        <path
+            android:pathData="M24,48 L38,48"
+            android:strokeColor="#FF5722"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M20,56 L42,56"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M26,64 L36,64"
+            android:strokeColor="#FFC107"
+            android:strokeWidth="3"
+            android:strokeLineCap="round" />
+
+        <!-- Runner Head -->
+        <path
+            android:pathData="M66,33 A5.5,5.5 0 1 0 66,22 A5.5,5.5 0 1 0 66,33 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="60"
+                    android:startY="22"
+                    android:endX="72"
+                    android:endY="33"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#00E5FF" />
+                    <item android:offset="1.0" android:color="#00B0FF" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Runner Torso & Limbs sprinting forward -->
+        <!-- Torso -->
+        <path
+            android:pathData="M54,42 L63,33 L70,44 L57,56 Z"
+            android:fillColor="#00E5FF" />
+        
+        <!-- Forward Arm -->
+        <path
+            android:pathData="M64,36 L76,38 L83,32"
+            android:strokeColor="#FF9100"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Back Arm -->
+        <path
+            android:pathData="M59,42 L50,44 L43,51"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="3.8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Front Leg (driven forward high knee) -->
+        <path
+            android:pathData="M59,54 L71,60 L66,74 L76,77"
+            android:strokeColor="#FF5722"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Back Leg (extended thrust) -->
+        <path
+            android:pathData="M54,55 L44,65 L33,69 L30,66"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Lightning / Speed Bolt Accent -->
+        <path
+            android:pathData="M78,24 L73,30 L77,30 L71,38"
+            android:strokeColor="#FFD600"
+            android:strokeWidth="2.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Target / Interval pulse circle around base -->
+        <path
+            android:pathData="M78,75 A12,4 0 1 0 54,75 A12,4 0 1 0 78,75 Z"
+            android:strokeColor="#3300E5FF"
+            android:strokeWidth="1.5" />
+    </group>
+</vector>

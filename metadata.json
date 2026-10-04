@@ -1,0 +1,6 @@
+{
+  "name": "PaceRunner",
+  "description": "Interval running coach for 10-minute morning workouts with 1-min fast and 1-min slow cues, voice prompts, and real-time GPS speed tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
